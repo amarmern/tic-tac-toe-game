@@ -13,7 +13,7 @@ function Square(props) {
 
   return (
     <div
-      className={'cell ' + disabled}
+      className={'cell sqaure ' + disabled}
       onClick={() =>
         draw(board, players, index).then(() => {
           toggleTurn();

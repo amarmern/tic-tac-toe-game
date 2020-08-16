@@ -4,7 +4,7 @@ import Board from './components/Board/Board';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='container gameconatainer'>
       <div className='row'>
         <div className='col col-md-6 offset-md-3'>
           <Board />
